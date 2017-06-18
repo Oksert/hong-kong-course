@@ -1,0 +1,12 @@
+fieldset {
+   border:10px solid yellow;
+   background:lightyellow;
+   width: 720px;
+}
+label {
+  display: inline-block;
+  text-align: center;
+}
+span .r {
+  text-align: center;
+}

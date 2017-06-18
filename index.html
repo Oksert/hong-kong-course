@@ -4,13 +4,14 @@
     <meta charset="utf-8">
     <title>Dating site</title>
     <script src="https://www.cse.ust.hk/~rossiter/dating_web_site.js"></script>
+    <link rel="stylesheet" href="style.css" >
   </head>
   <body>
-    <form class="" action="index.html" method="post" enctype="multipart/form-data">
+    <form class="" action="http://ihome.ust.hk/~rossiter/cgi-bin/show_everything.php" method="get" enctype="multipart/form-data">
       <fieldset>
         <legend>Your face</legend>
         <label for="usr_image">Your image</label>
-        <input type="file" name="usr_image" value=""><br>
+        <input type="file" name="usr_image" value="usr_image"><br>
         <label for="">Image preview:</label>
         <img id="preview"/ width="100px">
       </fieldset>
@@ -31,9 +32,9 @@
       <fieldset>
         <legend>Your indicators</legend>
         <label for="">Height:</label>
-        <span>Short</span><input type="range" min="0" max="100" name="height" value=""><span>Tall</span><br>
+        <span class="r">Short</span><input type="range" min="0" max="100" name="height" value=""><span class="r">Tall</span><br>
         <label for="">Salary:</label>
-        <span>Poor</span><input type="range" name="salary" value="" min="0" max="100"><span>Rich</span>
+        <span class="r">Poor</span><input type="range" name="salary" value="" min="0" max="100"><span class="r">Rich</span>
       </fieldset>
       <fieldset>
         <legend>Your Contact Information</legend>

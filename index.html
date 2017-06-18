@@ -10,43 +10,43 @@
       <fieldset>
         <legend>Your face</legend>
         <label for="usr_image">Your image</label>
-        <input type="file" name="usr_image" value=""><br>
-        <label for="">Image preview:</label>
+        <input type="file" id="usr_image" name="usr_image" value=""><br>
+        <label for="preview">Image preview:</label>
         <img id="preview"/ width="100px">
       </fieldset>
       <fieldset>
         <legend>Your General Details</legend>
         <label for="name">Name</label>
-        <input type="text" name="Name" value="" placeholder="Your full name"><br>
+        <input type="text" id = "name" name="Name" value="" placeholder="Your full name"><br>
         <label for="gender">Gender</label>
-        <span>Male</span> <input type="radio" name="gender" value="male">
-        <span>Female</span> <input type="radio" name="gender" value="female"><br>
+        <span>Male</span> <input type="radio" name="gender" id="male" value="male">
+        <span>Female</span> <input type="radio" name="gender" id="female" value="female"><br>
         <label for="age">Age</label>
-        <input type="text" name="age" value=""><br>
+        <input type="text" name="age" id="age" value=""><br>
         <label for="birth">Date of birth</label>
-        <input type="date" name="birth" value=""><br>
+        <input type="date" name="birth" id="birth" value=""><br>
         <label for="color">Favourite color</label>
-        <input type="color" name="color" value="">
+        <input type="color" name="color" id="color" value="">
       </fieldset>
       <fieldset>
         <legend>Your indicators</legend>
         <label for="">Height:</label>
-        <span>Short</span><input type="range" min="0" max="100" name="height" value=""><span>Tall</span><br>
+        <span>Short</span><input type="range" min="0" max="100" id="height" name="height" value=""><span>Tall</span><br>
         <label for="">Salary:</label>
-        <span>Poor</span><input type="range" name="salary" value="" min="0" max="100"><span>Rich</span>
+        <span>Poor</span><input type="range" name="salary" value="" min="0" id="salary" max="100"><span>Rich</span>
       </fieldset>
       <fieldset>
         <legend>Your Contact Information</legend>
         <label for="email">Email</label>
-        <input type="email" name="email" value=""><br>
+        <input type="email" name="email" id="email" value=""><br>
         <label for="tel">Mobile</label>
-        <input type="tel" name="tel" value=""><br>
+        <input type="tel" name="tel" id="tel"  value=""><br>
         <label for="address">Address:</label>
-        <input type="text-area" name="" value=""><br>
+        <input type="text-area" name="address" id="address" value=""><br>
         <label for="contact">Method To Contact You</label>
-        <input type="radio" name="contact" value="Email"> <span>Email</span>
-        <input type="radio" name="contact" value="Whatsapp"> <span>Whatsapp</span>
-        <input type="radio" name="contact" value="inapp"> <span>In-app chat</span>
+        <input type="radio" name="contact" id="em" value="Email"> <span>Email</span>
+        <input type="radio" name="contact" value="Whatsapp" id="wa"> <span>Whatsapp</span>
+        <input type="radio" name="contact" value="inapp" id="in"> <span>In-app chat</span>
       </fieldset>
       <input type="submit" name="Submit" value="Submit">
     </form>
